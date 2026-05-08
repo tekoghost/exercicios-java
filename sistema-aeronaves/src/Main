@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        // Instanciando as aeronaves
+        AviaoComercial aviaoComercial = new AviaoComercial("Boeing 737", 180);
+        AviaoCarga aviaoCarga = new AviaoCarga("Airbus Beluga", 50);
+
+        // Exibindo as informações
+        aviaoComercial.exibirInformacoes();
+        
+        System.out.println(); // Linha em branco para separar as saídas
+        
+        aviaoCarga.exibirInformacoes();
+    }
+}
